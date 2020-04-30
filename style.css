@@ -25,13 +25,13 @@ p {
 }
 
 .page2 {
-    background-image: url("./img/graduation-cap-flatlay.jpg");
+    background-image: url("./img/startup-desktop.jpg");
     background-size: 100%;
     background-size: cover;
 }
 .page3{
     height: 90vh;
-    background-image: url("./img/graduation-cap-flatlay.jpg");
+    background-image: url("./img/objects-on-a-desk-throw-shadows-from-a-lamp.jpg");
     background-size: 100%;
     background-size: cover;
 }
