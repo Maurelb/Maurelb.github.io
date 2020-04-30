@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 24px;
+}
+
+.page0 {
+    background-image: url("./img/designers-desk-with-coffee-wireframes.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    
+    
+}
+
+.page1 {
+    background-image: url("./img/graduation-cap-flatlay.jpg");
+    background-size: 100%;
+    background-size: cover;
+}
+
+.page2 {
+    background-image: url("./img/graduation-cap-flatlay.jpg");
+    background-size: 100%;
+    background-size: cover;
+}
+.page3{
+    height: 90vh;
+    background-image: url("./img/graduation-cap-flatlay.jpg");
+    background-size: 100%;
+    background-size: cover;
+}
+.page4 {
+    background-image: url("./img/working-at-night.jpg");
+    background-size: 100%;
+    background-size: cover;
+}
+
+.comp {
+    margin-left:12.5%;
+    background-color: rgb(59, 59, 59);
+}
+
+.comp-txt{
+    font-size: 28px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgb(214, 104, 0);
+}
+
+
+.panel {
+    height: 100vh;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 50px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.progress {
+    margin: 30px;
+    width: 70%;
+}
+
+.bar {
+    font-size: 18px;
+}
+
+
+.iut-aubiere {
+    background: center / contain no-repeat url("./img/iut.jpg");
+    background-size: cover;
+}
+
+.bac {
+    background: center/ contain no-repeat url("./img/Lycée_Edmond-Perrier.jpg");
+    background-size: cover;
+    
+}
+
+.iut-limoges {
+    background: center / contain no-repeat url("./img/iutLimoges.png");
+    background-size: cover;
+}
+
+.card-title {
+    font-size: 24px;
+    color: white;
+}
+
+.arrow {
+    position: absolute;
+    margin-left: 49%;
+    bottom:50px;
+    width: 50px;
+}
+
+.tete {
+    height: 250px;
+}
+
+.LI-profile-badge{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+    width: 64px;
+}
+
+.titre1{
+    margin:0;
+    padding: 10px;
+    background-color: #212529!important;
+    opacity: 0.95;
+    color: white;
+}
+
+.titre2{
+    background-color: #212529!important;
+    opacity: 0.65;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+.texte{
+    padding-left: 40px;
+    padding-right: 50px;
+    height: 46%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.card-text {
+    height: 300px;
+}
+
+.card1 {
+    color: indianred ;
+    font-weight: 800;
+}
+.card2 {
+    color: black ;
+    font-weight: 800;
+}
+.card3 {
+    color: red ;
+    font-weight: 800;
+}
+
+.proj {
+    width: 600px;
+    height: 100px;
+}
+
+.w-280-px{
+    width: 280px;
+}
